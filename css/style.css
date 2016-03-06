@@ -70,7 +70,8 @@ header {
   font-size: 100px;
   font-weight: 700;
   letter-spacing: -4px;
-  align-self: center; }
+  align-self: center;
+  color: #AD00FF; }
 
 .menu {
   text-align: right;
@@ -96,8 +97,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex-grow: 1;
-    color: rgba(153, 153, 153, 0.15); }
+    color: rgba(151, 4, 255, 0.07); }
     .wrapper .main-content h1 {
       font-family: "Paytone One", sans-serif;
       font-size: 70px; }
