@@ -86,3 +86,20 @@ header {
   align-self: center;
   font-size: 14px;
   font-weight: 400; }
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center; }
+  .wrapper .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    color: rgba(153, 153, 153, 0.15); }
+    .wrapper .main-content h1 {
+      font-family: "Paytone One", sans-serif;
+      font-size: 70px; }
+    .wrapper .main-content p {
+      font-size: 25px; }
